@@ -244,7 +244,7 @@ To check the html code appears as it should or not, use the curl command, curl i
 - Why for the needs of php5.6 can not use ubuntu 16.04, so it needs to change the os to debian 9?
 - Why use LXC virtualization on the website schema that will be developed?
 - What is a proxy server? why can we think of vm.local as a proxy server?
-### Answear
+### Answer
 - Because php5.6 can't update, so we're using Debian 9, which is still working
 - Because LXC is a lightweight virtualization system that can be accessed for free. The LXC system also provides frequently used command lines such as Create, Start, and Delete.
 - **Proxy server** is a system that have a intermediary function for computer to access the internet. **vm.local** can be assumed as a Proxy Server because vm.local's just a bridge to proceed to the container app. So we can access the container as vm.local.

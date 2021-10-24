@@ -1,9 +1,9 @@
 # Lab Report 1
-# Praktikum Modul 1 Virtualisasi - Sistem Administrasi Server
+# Practicum Module 1 Virtualisasi - Sistem Administrasi Server
 
 **From Group 6 [ IT 02-01 ]**
 
-**Fairuzrizqi Nugraharsanto   1202190044 || Budhi Priambodo  120219**
+**Fairuzrizqi Nugraharsanto   1202190044 || Budhi Priambodo  1202192065**
 
 ------
 **Case Study**
@@ -28,12 +28,12 @@ Create an basic virtualization as a company profile website based on domain stra
 
 ## Problem Solving
 
-#### Pastikan adaptor bridge dan setting Ip Static
+#### Make sure the bridge adapter and Ip Static settings
 ![rte](https://user-images.githubusercontent.com/92350603/138592469-b73fac4c-d06b-4e93-955b-abbfabf1199b.png)
-#### Cek lxc yang sudah ada dari praktikum sebelumnya
+#### Check the existing LXC from the previous practicum
 ![2](https://user-images.githubusercontent.com/92350603/138592631-aad43757-b8e5-4104-8757-38e0925704a3.png)
 
-Masuk ke superuser dengan  using command `sudo su`
+*Log in to super user with using command `sudo su`*
 
 1. Rename ubuntu_php5.6 to ubuntu_landing, also change the IP following the new scheme
 
@@ -242,8 +242,10 @@ To check the html code appears as it should or not, use the curl command, curl i
 
 ### Analysis
 - Why for the needs of php5.6 can not use ubuntu 16.04, so it needs to change the os to debian 9?
-
 - Why use LXC virtualization on the website schema that will be developed?
-
 - What is a proxy server? why can we think of vm.local as a proxy server?
-
+### Answear
+- Because php5.6 can't update, so we're using Debian 9, which is still working
+- Because LXC is a lightweight virtualization system that can be accessed for free. The LXC system also provides frequently used command lines such as Create, Start, and Delete.
+- **Proxy server** is a system that have a intermediary function for computer to access the internet. **vm.local** can be assumed as a Proxy Server because vm.local's just a bridge to proceed to the container app. So we can access the container as vm.local.
+-------

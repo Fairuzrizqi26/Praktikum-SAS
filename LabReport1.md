@@ -42,6 +42,7 @@ Create an basic virtualization as a company profile website based on domain stra
    lxc-copy -R -n ubuntu_php5.6 -N ubuntu_landing
    ```
 This code is for copy than changing the container name from ubuntu_php5.6 to ubuntu_landing.
+
 ![3](https://user-images.githubusercontent.com/92350603/138592636-d4939acf-ca96-4370-bef3-5e48a7312dca.png)
 
 To make sure the name of ubuntu_php5.6 has changed, we can check using the command

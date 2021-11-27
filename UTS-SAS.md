@@ -141,6 +141,7 @@ Download ISO Installer windows server 2022
    <img width="551" alt="e10" src="https://user-images.githubusercontent.com/92350603/143684182-50fe6fc6-d95d-4df1-8c5a-c58ddf15dab0.PNG">
 
 -  Skip the Paths section, click `Next`.
+
    <img width="552" alt="e11" src="https://user-images.githubusercontent.com/92350603/143684188-c2493fb1-a2ed-448a-bad5-76f4c7cc31cd.PNG">
 
 -  Check the configuration specified in `Review Options`, if it is TRUE. Click `Next`.

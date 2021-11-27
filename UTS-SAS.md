@@ -113,22 +113,50 @@ Download ISO Installer windows server 2022
 
 ### E. Promote Server to a Domain Controller
 -  Setting to static ip using `cmd`, type `sconfig`
+   ![Screenshot (196)](https://user-images.githubusercontent.com/92350603/143683985-065e5e72-edd5-43bf-a2dd-57c4bf927d07.png)
+   ![Screenshot (197)](https://user-images.githubusercontent.com/92350603/143684019-213fb0cc-a60c-4aad-80aa-6ba4a911a042.png)
+   ![Screenshot (199)](https://user-images.githubusercontent.com/92350603/143684052-f8746780-e7cc-4028-b680-1d09247de215.png)
+   ![Screenshot (200)](https://user-images.githubusercontent.com/92350603/143684059-504bdcb5-64ad-475f-8d93-da61919fdb14.png)
+   <img width="545" alt="e 4" src="https://user-images.githubusercontent.com/92350603/143684083-4a6e746d-7b68-492f-a0dd-b247c18c7d76.PNG">
+   
 -  Setting the IP Address Server-ADDS and pointing the DNS to the static IP address used.
+   <img width="552" alt="e5" src="https://user-images.githubusercontent.com/92350603/143684141-e627c695-171e-4f92-9768-5737c2a40090.PNG">
+   
 -  Click `Promote this server to a domain controller` for ADD configuration
+   <img width="554" alt="e6" src="https://user-images.githubusercontent.com/92350603/143684153-f84ac7b5-f648-4c89-860e-db8124139a8c.PNG">
+   
 -  Select `Add a new forest` and enter the domain name to be used in the Root Domain Name. For example here I use the domain `fairuz.com`
+   <img width="554" alt="e7" src="https://user-images.githubusercontent.com/92350603/143684160-1696887f-50d5-4fe7-8d4a-24aa0092daec.PNG">
+
 -  Select `Windows Server 2016` at the functional level, put a check mark on `Domain Name System (DNS) server` and `Global Catalog (GC)`. 
    And fill in the Directory Services Restore Mode password with strong password criteria.
+   <img width="550" alt="e8" src="https://user-images.githubusercontent.com/92350603/143684167-4a20e21d-4969-4fe0-8954-7d0e4faab221.PNG">
+
 -  then click `Next`
+   <img width="551" alt="e9" src="https://user-images.githubusercontent.com/92350603/143684173-c0953c4e-40aa-4809-9c7e-5717b823003f.PNG">
+
 -  Fill in `The NetBIOS domain name` according to the domain name used.
+   <img width="551" alt="e10" src="https://user-images.githubusercontent.com/92350603/143684182-50fe6fc6-d95d-4df1-8c5a-c58ddf15dab0.PNG">
+
 -  Skip the Paths section, click `Next`.
+   <img width="552" alt="e11" src="https://user-images.githubusercontent.com/92350603/143684188-c2493fb1-a2ed-448a-bad5-76f4c7cc31cd.PNG">
+
 -  Check the configuration specified in `Review Options`, if it is TRUE. Click `Next`.
+   <img width="550" alt="e12" src="https://user-images.githubusercontent.com/92350603/143684203-1e513da7-213b-4370-b1d6-343ecbc0c814.PNG">
+
 -  If there is `All prerequisite checks passed successfully.` Click `Install` to apply the specified configuration.
+   <img width="554" alt="e13" src="https://user-images.githubusercontent.com/92350603/143684210-02b01e84-7a17-4101-88b3-ae9aba09d566.PNG">
+
 -  After the installation is complete, the laptop will restart automatically. Then login using administrator password
+   <img width="552" alt="e14" src="https://user-images.githubusercontent.com/92350603/143684215-b2d9b163-e145-4198-a493-ed3959dcd993.PNG">
+   <img width="550" alt="e15" src="https://user-images.githubusercontent.com/92350603/143684219-24088a08-f094-47e7-b4a0-452eada247bc.PNG">
+   ![Screenshot (202)](https://user-images.githubusercontent.com/92350603/143684262-474906af-add2-4b7c-b4db-7bbf3bad161e.png)
+
 -  To check the configuration results, open cmd and type `netdom query fsmo`
--  After logging in with the Active Directory Domain Controller, open the TCP/IP properties of your network connection. 
-   You can see the DNS server IP Address.
--  DONE .^_^.  
- *GAMBAR MENYUSUL LURRR*
+   ![Screenshot (203)](https://user-images.githubusercontent.com/92350603/143684274-3ac93c87-a78c-4c63-92c4-f5b64fc83084.png)
+   ![Screenshot (204)](https://user-images.githubusercontent.com/92350603/143684276-af7f8487-3a21-4276-b54b-241ae74fb3b6.png)
+
+-  DONE .^_^. 
 
 
 

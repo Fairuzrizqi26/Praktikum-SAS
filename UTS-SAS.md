@@ -19,6 +19,7 @@ Download ISO Installer windows server 2022
 - Lalu buka Oracle VM
    ![1](https://user-images.githubusercontent.com/92350603/143668175-186b26b6-fa01-42bc-930a-df88721c111b.png)
 - Kemudian Klik New, dan lakukan seperti gambar dibawah ini :
+  
   Enter the name of the machine and type of system to use
 ![Screenshot (170)](https://user-images.githubusercontent.com/92350603/143668255-57a3ee73-6add-46c9-994f-b7cab295a81b.png)
 - Define ram, create the disk defining type and size
@@ -69,8 +70,14 @@ Download ISO Installer windows server 2022
 -  Buka menu start lalu pilih Windows PowerShell
    ![b1](https://user-images.githubusercontent.com/92350603/143672373-95676423-bec2-4003-b4a8-600b2fa47e57.png)
    ![b2](https://user-images.githubusercontent.com/92350603/143672377-f95ba41c-982b-4d7d-a578-1cea0feb48df.png)
-   ![b3](https://user-images.githubusercontent.com/92350603/143672380-de02fca0-4700-4168-96cb-e96ecf76982b.png)
-
+   ![b3_LI](https://user-images.githubusercontent.com/92350603/143672804-98d4848e-4333-428c-aa2f-a7b97bde3af7.jpg)
+   ![b4_LI](https://user-images.githubusercontent.com/92350603/143672810-4e815c4e-9b7b-4f23-ad5c-bf90309b8760.jpg)
+   ![b5](https://user-images.githubusercontent.com/92350603/143672818-314608b0-2b3c-48d8-b4b5-63cfab465194.png)
+   ![b6](https://user-images.githubusercontent.com/92350603/143672828-ad7df85c-d33e-4b9b-a7d5-b3e2b8e4afc7.png)
+   ![b7](https://user-images.githubusercontent.com/92350603/143672831-8bcde095-899a-4445-bb3c-fd18b218d6b8.png )
+   ![b8_LI](https://user-images.githubusercontent.com/92350603/143672842-2095b4a2-0c0b-4bd8-b554-17fc3b6672d7.jpg)
+   
+   
 ### c. Instalasi DNS server
 ### d. Instalasi Net Framework 3.5
 ### e. Promote Server to a Domain Controller

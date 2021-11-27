@@ -115,7 +115,7 @@ Download ISO Installer windows server 2022
 -  Setting to static ip using `cmd`, type `sconfig`
 -  Setting the IP Address Server-ADDS and pointing the DNS to the static IP address used.
 -  Click `Promote this server to a domain controller` for ADD configuration
--  Select `Add a new forest` and enter the domain name to be used in the Root Domain Name. For example here I use the domain `Aim.com`
+-  Select `Add a new forest` and enter the domain name to be used in the Root Domain Name. For example here I use the domain `fairuz.com`
 -  Select `Windows Server 2016` at the functional level, put a check mark on `Domain Name System (DNS) server` and `Global Catalog (GC)`. 
    And fill in the Directory Services Restore Mode password with strong password criteria.
 -  then click `Next`

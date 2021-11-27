@@ -112,8 +112,22 @@ Download ISO Installer windows server 2022
    ![d5](https://user-images.githubusercontent.com/92350603/143673130-65ad3618-61a3-4134-b0d7-9f2ef66f07ed.png)
 
 ### E. Promote Server to a Domain Controller
--  Next,... HELP
-
+-  Setting to static ip using `cmd`, type `sconfig`
+-  Setting the IP Address Server-ADDS and pointing the DNS to the static IP address used.
+-  Click `Promote this server to a domain controller` for ADD configuration
+-  Select `Add a new forest` and enter the domain name to be used in the Root Domain Name. For example here I use the domain `Aim.com`
+-  Select `Windows Server 2016` at the functional level, put a check mark on `Domain Name System (DNS) server` and `Global Catalog (GC)`. 
+   And fill in the Directory Services Restore Mode password with strong password criteria.
+-  then click `Next`
+-  Fill in `The NetBIOS domain name` according to the domain name used.
+-  Skip the Paths section, click `Next`.
+-  Check the configuration specified in `Review Options`, if it is TRUE. Click `Next`.
+-  If there is `All prerequisite checks passed successfully.` Click `Install` to apply the specified configuration.
+-  After the installation is complete, the laptop will restart automatically. Then login using administrator password
+-  To check the configuration results, open cmd and type `netdom query fsmo`
+-  After logging in with the Active Directory Domain Controller, open the TCP/IP properties of your network connection. 
+   You can see the DNS server IP Address.
+-  ^_^ DONE ^_^
 
 
 

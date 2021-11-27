@@ -66,6 +66,10 @@ Download ISO Installer windows server 2022
 ![Screenshot (192)](https://user-images.githubusercontent.com/92350603/143669994-66347623-61d4-47ff-8da6-81ac6bf481f9.png)
 
 ### b. Instalasi Active Directory Domain Services
+-  Buka menu start lalu pilih Windows PowerShell
+   ![b1](https://user-images.githubusercontent.com/92350603/143672373-95676423-bec2-4003-b4a8-600b2fa47e57.png)
+   ![b2](https://user-images.githubusercontent.com/92350603/143672377-f95ba41c-982b-4d7d-a578-1cea0feb48df.png)
+   ![b3](https://user-images.githubusercontent.com/92350603/143672380-de02fca0-4700-4168-96cb-e96ecf76982b.png)
 
 ### c. Instalasi DNS server
 ### d. Instalasi Net Framework 3.5

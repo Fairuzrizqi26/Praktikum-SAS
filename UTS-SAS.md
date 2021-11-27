@@ -8,17 +8,18 @@
 
 **Answer**
 ------
-### a. Instalasi windows server 2022
+### A. Instalasi windows server 2022
+
 Download ISO Installer windows server 2022
 
    https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
    
-   Select download the ISO then follow it step by step.
+   Select download the `ISO` then follow it step by step.
 <img width="874" alt="cccc" src="https://user-images.githubusercontent.com/92350603/143621513-6da949ad-311d-4c4b-af20-f8dc3031a9e4.PNG">
 
 - Lalu buka Oracle VM
    ![1](https://user-images.githubusercontent.com/92350603/143668175-186b26b6-fa01-42bc-930a-df88721c111b.png)
-- Kemudian Klik New, dan lakukan seperti gambar dibawah ini :
+- Kemudian Klik `New`, dan lakukan seperti gambar dibawah ini :
   
   Enter the name of the machine and type of system to use
 ![Screenshot (170)](https://user-images.githubusercontent.com/92350603/143668255-57a3ee73-6add-46c9-994f-b7cab295a81b.png)
@@ -29,16 +30,16 @@ Download ISO Installer windows server 2022
 ![Screenshot (174)](https://user-images.githubusercontent.com/92350603/143668265-5764bd8f-3adb-4165-a7c5-9dabd770f1ad.png)
 ![Screenshot (175)](https://user-images.githubusercontent.com/92350603/143668483-c983e7a3-ad2c-4394-9a29-dca5a3ff388f.png)
 
-- Go to the machine configuration and in the “Network” section set “Bridge adapter”
+- Go to the machine configuration and in the `Network` section set `Bridge adapter`
 ![Screenshot (193)](https://user-images.githubusercontent.com/92350603/143668838-8b38e77e-4498-4ddd-aa3f-4534fa63e15e.png)
 -  Click on “Start” and select the ISO downloaded
 <img width="440" alt="ss 2" src="https://user-images.githubusercontent.com/92350603/143668979-b62bb549-febb-4b8c-9b5f-52e0957f0ca7.PNG">
 
--  Click on “Start” and the Windows Server 2022 installation wizard will load
+-  Click on `Start` and the Windows Server 2022 installation wizard will load
 
 ![3](https://user-images.githubusercontent.com/92350603/143669454-108d765d-567f-4743-8a26-c1f0ac8b504c.png)
 
--  Click on “Install now”
+-  Click on `Install now`
 ![4](https://user-images.githubusercontent.com/92350603/143669176-71abffb1-c05f-4335-9b38-05327799b9c8.png)
 ![5](https://user-images.githubusercontent.com/92350603/143669179-8ff573b6-c55b-4678-bd41-89a82a2df513.png)
 
@@ -59,20 +60,26 @@ Download ISO Installer windows server 2022
 ![Screenshot (181)](https://user-images.githubusercontent.com/92350603/143669880-65f30db7-2d28-4c6f-8e7a-4deabfe9927d.png)
 - Next, custom your password administrator
 ![Screenshot (185)](https://user-images.githubusercontent.com/92350603/143669853-dec3a54e-15ac-4b0d-ad6e-313a0acc6f87.png)
-- Access the menu “Input – Keyboard – Insert Ctrl + Alt + Del”. Enter the password created and wait for the configuration to load
+- Access the menu `Input – Keyboard – Insert Ctrl + Alt + Del`. Enter the password created and wait for the configuration to load
 ![Screenshot (186)](https://user-images.githubusercontent.com/92350603/143669952-dec5d170-6ade-48d1-a7d8-44e54850f999.png)
 ![Screenshot (188)](https://user-images.githubusercontent.com/92350603/143669953-4ad35bca-86ca-4e6f-894b-2e4a8b30319f.png)
 - Windows Server 2022 has been successfully installed
 ![Screenshot (190)](https://user-images.githubusercontent.com/92350603/143669993-270c8b54-79d5-4b96-b850-60187c0fbc60.png)
 ![Screenshot (192)](https://user-images.githubusercontent.com/92350603/143669994-66347623-61d4-47ff-8da6-81ac6bf481f9.png)
 
-### b. Instalasi Active Directory Domain Services
--  Buka menu start lalu pilih Windows PowerShell
+### B. Instalasi Active Directory Domain Services
+-  Sebelum melakukan instalasi , kita merubah nama computer terlebih dahulu dengan masuk ke windows powershell. 
+   Kemudian ketikkan `rename-computer -Newname Server2022`
+      - Buka menu start lalu pilih `Windows PowerShell`
    ![b1](https://user-images.githubusercontent.com/92350603/143672373-95676423-bec2-4003-b4a8-600b2fa47e57.png)
    ![b2](https://user-images.githubusercontent.com/92350603/143672377-f95ba41c-982b-4d7d-a578-1cea0feb48df.png)
+      - Lalu Restart, Open `Server Manager` 
    ![b3_LI](https://user-images.githubusercontent.com/92350603/143672804-98d4848e-4333-428c-aa2f-a7b97bde3af7.jpg)
+      - Pilih menu `manage`, lalu `Add Rules and Features` 
    ![b4_LI](https://user-images.githubusercontent.com/92350603/143672810-4e815c4e-9b7b-4f23-ad5c-bf90309b8760.jpg)
+      - Next
    ![b5](https://user-images.githubusercontent.com/92350603/143672818-314608b0-2b3c-48d8-b4b5-63cfab465194.png)
+      - Pilih opsi `Role-based or feature-based installation`. Lalu `Next`
    ![b6](https://user-images.githubusercontent.com/92350603/143672828-ad7df85c-d33e-4b9b-a7d5-b3e2b8e4afc7.png)
    ![b7](https://user-images.githubusercontent.com/92350603/143672831-8bcde095-899a-4445-bb3c-fd18b218d6b8.png )
    ![b8_LI](https://user-images.githubusercontent.com/92350603/143672842-2095b4a2-0c0b-4bd8-b554-17fc3b6672d7.jpg)

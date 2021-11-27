@@ -127,7 +127,8 @@ Download ISO Installer windows server 2022
 -  To check the configuration results, open cmd and type `netdom query fsmo`
 -  After logging in with the Active Directory Domain Controller, open the TCP/IP properties of your network connection. 
    You can see the DNS server IP Address.
--  ^_^ DONE ^_^   *GAMBAR MENYUSUL LURRR*
+-  ^_^ DONE ^_^  
+ *GAMBAR MENYUSUL LURRR*
 
 
 

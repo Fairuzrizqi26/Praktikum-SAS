@@ -93,13 +93,13 @@ Download ISO Installer windows server 2022
    ![b8_LI](https://user-images.githubusercontent.com/92350603/143672842-2095b4a2-0c0b-4bd8-b554-17fc3b6672d7.jpg)
    
    
-### c. Instalasi DNS server
+### C. Instalasi DNS server
    - We need to install and configure the Active Directory role and DNS server to work together.
      Checklist `DNS Servers` then `add features` 
    ![c1](https://user-images.githubusercontent.com/92350603/143673100-618da08a-4061-4ff8-8f93-e45804fbd684.png)
    ![c2](https://user-images.githubusercontent.com/92350603/143673102-dc2f10f3-941c-41c2-b5a2-f5104756f0bb.png)
 
-### d. Instalasi Net Framework 3.5
+### D. Instalasi Net Framework 3.5
    - Checklist `.NET Framework 3.5 features`
    ![d1](https://user-images.githubusercontent.com/92350603/143673121-ebd2d23b-fbbc-42a8-bef3-174df70a8e4c.png)
    - Click `Next`
@@ -111,8 +111,8 @@ Download ISO Installer windows server 2022
    - And Success `Yeahhh`
    ![d5](https://user-images.githubusercontent.com/92350603/143673130-65ad3618-61a3-4134-b0d7-9f2ef66f07ed.png)
 
-### e. Promote Server to a Domain Controller
--  Next,...
+### E. Promote Server to a Domain Controller
+-  Next,... HELP
 
 
 

@@ -126,6 +126,7 @@ Download ISO Installer windows server 2022
    <img width="554" alt="e6" src="https://user-images.githubusercontent.com/92350603/143684153-f84ac7b5-f648-4c89-860e-db8124139a8c.PNG">
    
 -  Select `Add a new forest` and enter the domain name to be used in the Root Domain Name. For example here I use the domain `fairuz.com`
+
    <img width="554" alt="e7" src="https://user-images.githubusercontent.com/92350603/143684160-1696887f-50d5-4fe7-8d4a-24aa0092daec.PNG">
 
 -  Select `Windows Server 2016` at the functional level, put a check mark on `Domain Name System (DNS) server` and `Global Catalog (GC)`. 
@@ -133,6 +134,7 @@ Download ISO Installer windows server 2022
    <img width="550" alt="e8" src="https://user-images.githubusercontent.com/92350603/143684167-4a20e21d-4969-4fe0-8954-7d0e4faab221.PNG">
 
 -  then click `Next`
+
    <img width="551" alt="e9" src="https://user-images.githubusercontent.com/92350603/143684173-c0953c4e-40aa-4809-9c7e-5717b823003f.PNG">
 
 -  Fill in `The NetBIOS domain name` according to the domain name used.

@@ -15,15 +15,18 @@ Download ISO Installer windows server 2022
    https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
    
    Select download the `ISO` then follow it step by step.
-<img width="874" alt="cccc" src="https://user-images.githubusercontent.com/92350603/143621513-6da949ad-311d-4c4b-af20-f8dc3031a9e4.PNG">
+   
+   <img width="874" alt="cccc" src="https://user-images.githubusercontent.com/92350603/143621513-6da949ad-311d-4c4b-af20-f8dc3031a9e4.PNG">
 
-- Lalu buka Oracle VM
+- Then open `Oracle VM`
    ![1](https://user-images.githubusercontent.com/92350603/143668175-186b26b6-fa01-42bc-930a-df88721c111b.png)
-- Kemudian Klik `New`, dan lakukan seperti gambar dibawah ini :
+- Next Klik `New`, and do it like the picture below :
   
   Enter the name of the machine and type of system to use
 ![Screenshot (170)](https://user-images.githubusercontent.com/92350603/143668255-57a3ee73-6add-46c9-994f-b7cab295a81b.png)
+
 - Define ram, create the disk defining type and size
+
 ![Screenshot (171)](https://user-images.githubusercontent.com/92350603/143668258-5d2c86fa-b905-4c63-9810-9bbce118862e.png)
 ![Screenshot (172)](https://user-images.githubusercontent.com/92350603/143668259-4d234602-23bb-42f5-8a82-7cbbcf4945dc.png)
 ![Screenshot (173)](https://user-images.githubusercontent.com/92350603/143668262-8b3dd91f-09be-4590-8732-c4bfa26474fc.png)
@@ -32,7 +35,9 @@ Download ISO Installer windows server 2022
 
 - Go to the machine configuration and in the `Network` section set `Bridge adapter`
 ![Screenshot (193)](https://user-images.githubusercontent.com/92350603/143668838-8b38e77e-4498-4ddd-aa3f-4534fa63e15e.png)
--  Click on “Start” and select the ISO downloaded
+
+-  Click on `Start` and select the `ISO downloaded`
+
 <img width="440" alt="ss 2" src="https://user-images.githubusercontent.com/92350603/143668979-b62bb549-febb-4b8c-9b5f-52e0957f0ca7.PNG">
 
 -  Click on `Start` and the Windows Server 2022 installation wizard will load
@@ -68,25 +73,28 @@ Download ISO Installer windows server 2022
 ![Screenshot (192)](https://user-images.githubusercontent.com/92350603/143669994-66347623-61d4-47ff-8da6-81ac6bf481f9.png)
 
 ### B. Instalasi Active Directory Domain Services
--  Sebelum melakukan instalasi , kita merubah nama computer terlebih dahulu dengan masuk ke windows powershell. 
-   Kemudian ketikkan `rename-computer -Newname Server2022`
-      - Buka menu start lalu pilih `Windows PowerShell`
+-  Before doing the installation, we change the computer name first by going to windows powershell.
+   Then type `rename-computer -Newname Server2022`
+      - Open the start menu and select `Windows PowerShell`
    ![b1](https://user-images.githubusercontent.com/92350603/143672373-95676423-bec2-4003-b4a8-600b2fa47e57.png)
    ![b2](https://user-images.githubusercontent.com/92350603/143672377-f95ba41c-982b-4d7d-a578-1cea0feb48df.png)
-      - Lalu Restart, Open `Server Manager` 
+      - Then Restart, and open`Server Manager` 
    ![b3_LI](https://user-images.githubusercontent.com/92350603/143672804-98d4848e-4333-428c-aa2f-a7b97bde3af7.jpg)
-      - Pilih menu `manage`, lalu `Add Rules and Features` 
+      - Select Menu `manage`, Then `Add Rules and Features` 
    ![b4_LI](https://user-images.githubusercontent.com/92350603/143672810-4e815c4e-9b7b-4f23-ad5c-bf90309b8760.jpg)
-      - Next
+      - Select Next
    ![b5](https://user-images.githubusercontent.com/92350603/143672818-314608b0-2b3c-48d8-b4b5-63cfab465194.png)
-      - Pilih opsi `Role-based or feature-based installation`. Lalu `Next`
+      - Select option`Role-based or feature-based installation`. And `Next`
    ![b6](https://user-images.githubusercontent.com/92350603/143672828-ad7df85c-d33e-4b9b-a7d5-b3e2b8e4afc7.png)
+      - Click `Select a server from the server pool` to select a local storage directory. Then `Next`
    ![b7](https://user-images.githubusercontent.com/92350603/143672831-8bcde095-899a-4445-bb3c-fd18b218d6b8.png )
+      - Next, put a check mark in the `Active Directory Domain Services` box. When you check the box, on the right appears 
+        a brief description of ADDS and how it works. Then click `Add Features`.
    ![b8_LI](https://user-images.githubusercontent.com/92350603/143672842-2095b4a2-0c0b-4bd8-b554-17fc3b6672d7.jpg)
    
    
 ### c. Instalasi DNS server
--  Lalu,....
+      - 
    ![c1](https://user-images.githubusercontent.com/92350603/143673100-618da08a-4061-4ff8-8f93-e45804fbd684.png)
    ![c2](https://user-images.githubusercontent.com/92350603/143673102-dc2f10f3-941c-41c2-b5a2-f5104756f0bb.png)
 

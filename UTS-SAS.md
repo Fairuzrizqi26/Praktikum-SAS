@@ -16,3 +16,6 @@
    Select download the ISO then follow it step by step.
 <img width="874" alt="cccc" src="https://user-images.githubusercontent.com/92350603/143621513-6da949ad-311d-4c4b-af20-f8dc3031a9e4.PNG">
 
+Lalu buka Oracle VM 
+
+

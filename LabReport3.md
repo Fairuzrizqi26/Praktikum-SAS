@@ -41,6 +41,7 @@ Create SubDomain dev.vm.local with rules :
 
  ![4](https://user-images.githubusercontent.com/92350603/146415401-17515268-6d33-4031-8951-115ba54fd6e6.png)
 
+ ![5](https://user-images.githubusercontent.com/92350603/146421722-8a51d026-e671-4c24-8c25-9afdd40d457a.png)
 
   ```
   ---
@@ -101,27 +102,23 @@ Create SubDomain dev.vm.local with rules :
   
 * Add subdomain to /etc/hosts
 
-  <p align="center">
-        	<img src= "https://github.com/acid99/Sistem-Administrasi-Server/blob/main/assets/laprak3/2021-12-15_5.png?raw=true">
-  </p>
+ ![7](https://user-images.githubusercontent.com/92350603/146421586-81af8d8c-fb2d-4a62-84d3-2e78cabae05a.png)
+
 
 * Open vm.local file
 
-  <p align="center">
-        	<img src= "https://github.com/acid99/Sistem-Administrasi-Server/blob/main/assets/laprak3/2021-12-15_6.png?raw=true">
-  </p>
+  ![8](https://user-images.githubusercontent.com/92350603/146421769-c7d37948-2cda-456d-9eb1-c5d0b67d7cf3.png)
+
 
 * Add line www. After that exit lxc
 
-  <p align="center">
-        	<img src= "https://github.com/acid99/Sistem-Administrasi-Server/blob/main/assets/laprak3/2021-12-15_7.png?raw=true">
-  </p>
+  ![9](https://user-images.githubusercontent.com/92350603/146421787-bb2a3786-2fe3-445c-b8f2-fe70a0ce6714.png)
+
 
 * Open and edit vm.local in directory /etc/nginx/sites-enabled/
 
-  <p align="center">
-        	<img src= "https://github.com/acid99/Sistem-Administrasi-Server/blob/main/assets/laprak3/2021-12-15_9.png?raw=true">
-  </p>
+ ![10](https://user-images.githubusercontent.com/92350603/146421825-89138cfd-18fc-4c24-981b-160aa8c921e2.png)
+
 
   <p align="center">
         	<img src= "https://github.com/acid99/Sistem-Administrasi-Server/blob/main/assets/laprak3/2021-12-15_10.png?raw=true">

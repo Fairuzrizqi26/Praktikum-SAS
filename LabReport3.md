@@ -103,17 +103,17 @@ Create SubDomain dev.vm.local with rules :
 * Add subdomain to /etc/hosts
 
  ![7](https://user-images.githubusercontent.com/92350603/146421586-81af8d8c-fb2d-4a62-84d3-2e78cabae05a.png)
-
+ ![8](https://user-images.githubusercontent.com/92350603/146421769-c7d37948-2cda-456d-9eb1-c5d0b67d7cf3.png)
 
 * Open vm.local file
 
-  ![8](https://user-images.githubusercontent.com/92350603/146421769-c7d37948-2cda-456d-9eb1-c5d0b67d7cf3.png)
+ ![9](https://user-images.githubusercontent.com/92350603/146421787-bb2a3786-2fe3-445c-b8f2-fe70a0ce6714.png)
 
 
 * Add line www. After that exit lxc
 
-  ![9](https://user-images.githubusercontent.com/92350603/146421787-bb2a3786-2fe3-445c-b8f2-fe70a0ce6714.png)
-
+  ![10](https://user-images.githubusercontent.com/92350603/146421825-89138cfd-18fc-4c24-981b-160aa8c921e2.png)
+ 
 
 * Open and edit vm.local in directory /etc/nginx/sites-enabled/
 

@@ -117,7 +117,30 @@ Create SubDomain dev.vm.local with rules :
 
 * Open and edit vm.local in directory /etc/nginx/sites-enabled/
 
- ![10](https://user-images.githubusercontent.com/92350603/146421825-89138cfd-18fc-4c24-981b-160aa8c921e2.png)
+ <img width="450" alt="new 1 0" src="https://user-images.githubusercontent.com/92350603/146472376-3847f9eb-0354-423e-ac38-f9819fefd120.PNG">
+ 
+ <img width="458" alt="new 1" src="https://user-images.githubusercontent.com/92350603/146472394-5336cb19-dc58-4ec8-b96b-9b0a00c8d20f.PNG">
+
+* Open and edit vm.local in directory /etc/bind/vm/
+
+  <img width="479" alt="new 2" src="https://user-images.githubusercontent.com/92350603/146472518-9758c843-0464-45eb-bb59-7b7680923c3e.PNG">
+
+
+* Restart all packages
+
+  <img width="471" alt="new 3" src="https://user-images.githubusercontent.com/92350603/146472526-19410b86-4e78-4919-b799-0a66db00fde0.PNG">
+
+- Open Wifi Settings (in the case we use linux os), add dns server and uncheck automatic at menu Ipv4
+ 
+ <img width="332" alt="ne4" src="https://user-images.githubusercontent.com/92350603/146472677-e3ee1f98-04c5-4499-ae67-3d755bd97845.PNG">
+
+- At menu IPv6, unchecklist
+
+- Just reconnecting the wifi, and check dev.vm.local on the browser :)
+
+  <img width="960" alt="new4" src="https://user-images.githubusercontent.com/92350603/146472819-50ce398e-82d2-4462-a701-581ea7d63d46.PNG">
+  
+  <img width="956" alt="new5" src="https://user-images.githubusercontent.com/92350603/146472825-969639c6-4a55-49f8-adae-e560e0a7be2d.PNG">
 
 
 

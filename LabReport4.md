@@ -32,6 +32,7 @@
 
 * Run the jmeter, and change the number of threads
 
+![Screenshot (330)](https://user-images.githubusercontent.com/92350603/148335598-b7c55f38-c5ab-414a-9793-728f133c61ab.png)
 ![Screenshot (331)](https://user-images.githubusercontent.com/92350603/148335539-3dbca5bb-48a5-4362-85e4-27d92e283621.png)
 ![Screenshot (332)](https://user-images.githubusercontent.com/92350603/148335541-8f5ffe4e-acf3-43e0-b87e-1757c56a4f1d.png)
 ![Screenshot (333)](https://user-images.githubusercontent.com/92350603/148335546-08d752f1-c736-4ca1-b926-1d661bc7baa4.png)
@@ -43,9 +44,6 @@
 ![Screenshot (339)](https://user-images.githubusercontent.com/92350603/148335578-ec1f8894-c519-49a0-a940-a7dc4d09f85f.png)
 ![Screenshot (340)](https://user-images.githubusercontent.com/92350603/148335584-8c4f397a-73b4-420d-85f2-1fd152a62010.png)
 ![Screenshot (341)](https://user-images.githubusercontent.com/92350603/148335592-c92c77a8-a076-49da-be8a-aa9679e7749e.png)
-![Screenshot (330)](https://user-images.githubusercontent.com/92350603/148335598-b7c55f38-c5ab-414a-9793-728f133c61ab.png)
-
-
 
 
 * Go back to the VM and write the script as below to add upstream landing, php5,and php7
@@ -54,33 +52,61 @@
 ```markdown
 nano /etc/nginx/sites-available/vm.local
 ```
-
+  *to add upstream landing, php5, and php7
 ![Screenshot (342)](https://user-images.githubusercontent.com/92350603/148335782-bfde24e3-f812-422a-8eeb-40bb5d48436a.png)
+  *change the proxy_pass
 ![Screenshot (343)](https://user-images.githubusercontent.com/92350603/148335784-d8c75ae8-94bc-4ee0-b9fb-a71696502196.png)
-
-///////
-
-
-//////
-- 50
+  
+  *Then we go back to the jmeter 
+  
+* 50
 ![Screenshot (366)](https://user-images.githubusercontent.com/92350603/148343667-cd53d1f9-5512-407f-a038-9c4![Screenshot (367)](https://user-images.githubusercontent.com/92350603/148343674-c73569ea-f35c-41c3-b0c4-588cc9587ec6.png)
 7099f2324.png)
 ![Screenshot (369)](https://user-images.githubusercontent.com/92350603/148343712-4110086b-8727-4063-8d82-0a140a0c12c6.png)
 ![Screenshot (368)](https://user-images.githubusercontent.com/92350603/148343722-12c0a3ba-7b27-4cd5-9760-ddf8058af8a8.png)
 
-- 100
+* 100
 ![Screenshot (362)](https://user-images.githubusercontent.com/92350603/148343766-2511c487-8312-4aaf-9422-c5ce6c01673a.png)
 ![Screenshot (363)](https://user-images.githubusercontent.com/92350603/148343780-57ff2dcc-1766-417d-b89d-44bba657f470.png)
 ![Screenshot (364)](https://user-images.githubusercontent.com/92350603/148343785-4b939366-c9c9-4bf6-9127-2aebade09a1c.png)
 ![Screenshot (365)](https://user-images.githubusercontent.com/92350603/148343790-73054c97-e440-4647-8b71-c0e99a2874e0.png)
 
-- 150
+* 150
 ![Screenshot (361)](https://user-images.githubusercontent.com/92350603/148343836-7e23a13e-decd-431d-8d84-e0215566f8b9.png)
 ![Screenshot (360)](https://user-images.githubusercontent.com/92350603/148343840-bbae8187-c9e1-43ac-82e0-193d3be1ff13.png)
 ![Screenshot (359)](https://user-images.githubusercontent.com/92350603/148343856-1f986865-a10e-4dcf-8c6b-a0398d031661.png)
 ![Screenshot (358)](https://user-images.githubusercontent.com/92350603/148343862-b95dc8a5-bdc0-4450-b128-4070e6d98a05.png)
 
 
-
 ### Analysis
 
+Below is the results from when we use load balancer and not using the load balancer
+
+ - When there is 50 users that access our web, if we don't use load balancer the average time of user accessing our web is
+   - landing : 2444 ms / 2.4 s
+   - blog : 2347 ms / 2.3 s
+   - app : 19 ms / 0.019 s
+- When we use load balancer, then
+  - landing : 1841 ms / 1.8 s
+   - blog : 1379 ms / 1.3 s
+   - app : 12 ms / 0.012 
+
+Here we can know that the average time of user accessing our web is faster then if we don't use load balancer. For the throughput or the amount of user accessing our web is
+
+- When there is 50 users that access our web, if we don't use load balancer the amount of user accessing our web is
+
+  - landing : 16 user / second
+  - blog :  12 user / second
+  - app : 22 user / second
+
+- When we use load balancer, then
+
+  - landing : 42 user / second
+  - blog :  29 user / second
+  - app : 30 user / second
+
+  Here we can know that the average time of amount of user accessing our web in 1 second is faster then if we don't use load balancer.
+
+  
+
+  The conclusion is, if we use load balancer, then the time is faster and the amount of users that accessing our web is much more then when we don't use load balancer.

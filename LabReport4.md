@@ -46,22 +46,25 @@
 ![Screenshot (341)](https://user-images.githubusercontent.com/92350603/148335592-c92c77a8-a076-49da-be8a-aa9679e7749e.png)
 
 
-* Go back to the VM and write the script as below to add upstream landing, php5,and php7
+Go back to the VM and write the script as below to add upstream landing, php5,and php7
 
 
 ```markdown
 nano /etc/nginx/sites-available/vm.local
 ```
-  *to add upstream landing, php5, and php7
+to add upstream landing, php5, and php7
+  
 ![Screenshot (342)](https://user-images.githubusercontent.com/92350603/148335782-bfde24e3-f812-422a-8eeb-40bb5d48436a.png)
-  *change the proxy_pass
+change the proxy_pass
+
 ![Screenshot (343)](https://user-images.githubusercontent.com/92350603/148335784-d8c75ae8-94bc-4ee0-b9fb-a71696502196.png)
   
-  *Then we go back to the jmeter 
+Then we go back to the jmeter 
   
 * 50
-![Screenshot (366)](https://user-images.githubusercontent.com/92350603/148343667-cd53d1f9-5512-407f-a038-9c4![Screenshot (367)](https://user-images.githubusercontent.com/92350603/148343674-c73569ea-f35c-41c3-b0c4-588cc9587ec6.png)
-7099f2324.png)
+
+![Screenshot (366)](https://user-images.githubusercontent.com/92350603/148344664-c319ccdf-6c27-407b-9aeb-3e3e07b04920.png)
+![Screenshot (367)](https://user-images.githubusercontent.com/92350603/148344668-1c9a3373-7f17-4a83-8416-9589d023b4a7.png)
 ![Screenshot (369)](https://user-images.githubusercontent.com/92350603/148343712-4110086b-8727-4063-8d82-0a140a0c12c6.png)
 ![Screenshot (368)](https://user-images.githubusercontent.com/92350603/148343722-12c0a3ba-7b27-4cd5-9760-ddf8058af8a8.png)
 

@@ -86,30 +86,28 @@ Then we go back to the jmeter
 Below is the results from when we use load balancer and not using the load balancer
 
  - When there is 50 users that access our web, if we don't use load balancer the average time of user accessing our web is
-   - landing : 2444 ms / 2.4 s
-   - blog : 2347 ms / 2.3 s
-   - app : 19 ms / 0.019 s
+   - landing : 1115 ms / 1.1 s
+   - blog : 1555 ms / 1.5 s
+   - app : 4 ms / 0.004 s
 - When we use load balancer, then
-  - landing : 1841 ms / 1.8 s
-   - blog : 1379 ms / 1.3 s
-   - app : 12 ms / 0.012 
+   - landing : 37 ms / 0.037 s
+   - blog : 27 ms / 0.027 s
+   - app : 21 ms / 0.021 s
 
 Here we can know that the average time of user accessing our web is faster then if we don't use load balancer. For the throughput or the amount of user accessing our web is
 
 - When there is 50 users that access our web, if we don't use load balancer the amount of user accessing our web is
 
-  - landing : 16 user / second
-  - blog :  12 user / second
-  - app : 22 user / second
+  - landing : 36 user / second
+  - blog :  20 user / second
+  - app : 41 user / second
 
 - When we use load balancer, then
 
-  - landing : 42 user / second
-  - blog :  29 user / second
-  - app : 30 user / second
+  - landing : 427 user / second
+  - blog :  439 user / second
+  - app : 446 user / second
 
-  Here we can know that the average time of amount of user accessing our web in 1 second is faster then if we don't use load balancer.
+The conclusion is, if we use load balancer, then the time is faster and the amount of users that accessing our web is much more then when we don't use load balancer.
 
-  
-
-  The conclusion is, if we use load balancer, then the time is faster and the amount of users that accessing our web is much more then when we don't use load balancer.
+*Thank you* 

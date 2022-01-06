@@ -95,7 +95,6 @@ Below is the results from when we use load balancer and not using the load balan
    - app : 21 ms / 0.021 s
 
 Here we can know that the average time of user accessing our web is faster then if we don't use load balancer. For the throughput or the amount of user accessing our web is
-
 - When there is 50 users that access our web, if we don't use load balancer the amount of user accessing our web is
 
   - landing : 36 user / second
